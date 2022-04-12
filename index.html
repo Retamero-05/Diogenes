@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <meta charset="UTF-8">
+       
+       <title>Senac T.I. 2022!
+       Diógenes Puentes
+  </title>
+       <link href="./style.css" rel="stylesheet" />
+
+  </head>
+        <body>
+              <div class="img"> <img src= https://yata-apix-7cca9a07-73ec-4278-935b-a3c292e81061.lss.locawebcorp.com.br/942d13d441c745d0b900b2b54ce10875.png></div>
+              <h1>Diógenes Puentes</h1>
+
+            <div>
+                <input id="Nome" type="text" placeholder="Digite o Nome" />
+
+            </div>
+
+            <div>
+              <input id="Ano" type="number" placeholder="Ano de Nascimento" />
+
+            </div>
+
+           
+
+            <button onclick="verifyMissing()">Verificar</button>
+
+    
+             <h2></h2>
+            
+                 
+    <script>
+
+     
+
+    function verifyMissing(){
+      // linha responsável por pegar o valor do input com id Ano
+      const Nome= document.getElementById('Nome').value 
+      const Ano= document.getElementById('Ano').value
+
+      console.log('Entrou no meu script')
+
+    if(Ano>=2005)
+
+    {document.querySelector ('h2') .innerText = `Compra Proibida`
+
+  }
+
+  else{
+
+    document.querySelector ('h2') .innerText = `Compra Permitida`
+  }
+
+}
+    </script>
+  </body>
+</html>
+
+

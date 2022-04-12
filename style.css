@@ -1,0 +1,54 @@
+body{
+  background-color: #5749ec;
+
+  font-family: sans-serif;
+
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+
+input{
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+ 
+  }
+
+  button{
+
+      width: 120px;
+      height: 32px;
+      border-radius: 20px;
+      background-color:  blue;
+      color: aqua;
+      border: none;
+      margin-top: 15px;
+      text-align: center;
+      
+       }
+
+  div{
+        
+          text-align: center;
+          margin-top: 19px;
+      }
+
+      
+h2{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  box-sizing: 30px;
+  border-radius: 20px;
+
+}
+
+      
+
+
+     
